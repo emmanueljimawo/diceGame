@@ -23,6 +23,12 @@ class _MyAppsState extends State<MyApps> {
     return MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.black,
+        appBar: AppBar(
+          title: Text(
+            'A DICE GAME By Jimawo Emmanuel',
+          ),
+          backgroundColor: Colors.black,
+        ),
         body: Center(
           child: Row(
             children: <Widget>[
